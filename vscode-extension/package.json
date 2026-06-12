@@ -1,0 +1,11 @@
+{
+  "name": "capsule-open-files",
+  "displayName": "Capsule Open Files",
+  "description": "Writes open file list to ~/.capsule/vscode-open-files.json for dev-context-capsule",
+  "version": "0.0.1",
+  "publisher": "capsule",
+  "engines": { "vscode": "^1.66.0" },
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {}
+}

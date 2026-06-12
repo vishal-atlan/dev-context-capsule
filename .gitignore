@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+dist/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.env
+*.env
+
+# capsule storage (local data, not committed)
+data/
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Local learning docs (not part of the repo)
+docs/deep-dive-learning-guide.md
